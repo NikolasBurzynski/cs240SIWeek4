@@ -38,7 +38,9 @@ int main() {
     small_arr.removeOdd(1);
     med_arr.removeOdd(1);
     lar_arr.removeOdd(1);
+    std::cout << std::endl << std::endl;
     std::cout << "==================================" << std::endl;
+    std::cout << std::endl << std::endl;
     small_arr_2.removeOdd(2);
     med_arr_2.removeOdd(2);
     lar_arr_2.removeOdd(2);
