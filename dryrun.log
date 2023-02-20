@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nburzyn1/240-SI/Week4'
+g++ -c main.cpp
+g++ -c OperationCounter.cpp
+g++ -c My_arr.cpp
+g++ main.o OperationCounter.o My_arr.o -o main
+make: Leaving directory '/home/nburzyn1/240-SI/Week4'
+ 
